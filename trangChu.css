@@ -1,0 +1,396 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.main{
+    width: 100%;
+    
+}
+
+.header{
+    height: 30px;
+    background-color: rgb(1,21,66);
+}
+.header-sub{
+    float: right;
+}
+
+.header ul{
+    line-height: 25px;
+padding-right: 30px;
+
+
+
+    
+}
+.header li{
+    display: inline-block;
+    
+    vertical-align: middle;
+   position: relative;
+
+}
+.header a{
+    text-decoration: none;
+    
+    
+    font-size: 11px;
+    padding:0 10px;
+    color:rgba(255,255,255,.8)
+    
+   
+    
+    
+  
+}
+.header-sub>ul>li:hover>a{
+    color: #fff;
+    text-decoration: none;
+}
+.header>ul>li>a{
+    border-left: 1px solid gray;
+    color: gainsboro;
+}
+#search{color: white;
+    margin-right: 5px;
+}
+.chevron{
+    color: gray;
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+
+
+.header li:hover .sub-blog{
+    display: block;
+
+}
+.sub-blog li:hover a{
+    color: black;
+    text-decoration: none;
+}
+.sub-blog{
+    vertical-align: middle;
+
+position: absolute;
+
+  background-color: white;
+   min-width: 180px;
+   right:1px;
+   
+color: rgba(255,255,255,.8);
+
+   padding: 20px;
+   display: none;
+   border: 1px solid gainsboro;
+   border-radius: 5px;
+   line-height: 1.5;
+}
+.sub-blog li{
+    display: block;
+}
+.sub-blog a{
+    border-bottom: 1px solid gainsboro;
+    display: block;
+    color: gray;
+     
+}
+.sub-blog #tonghop{
+    border: none;
+}
+/* phần nav */
+.nav{
+    
+    position: inherit;
+    height: 50px;
+    
+ 
+} 
+ 
+.sub-nav {
+    float: right;
+    margin-right: 40px;
+    
+}
+.sub-nav ul{
+    line-height: 50px;
+}
+.sub-nav li{
+    display:inline;
+
+}
+
+
+.sub-nav li{
+display: inline-block;
+}
+.sub-nav a{
+    font-size: 10px;
+    margin-right: 15px;
+    color: #011542;
+
+    font-weight: 500;
+    
+}
+.sub-nav li span{
+    border-left: 1px solid gainsboro;
+    padding: 5px;
+}
+.sub-nav li span>i{
+    color: red;
+}
+.sub-nav a:hover{
+    color: red;
+    text-decoration: none;
+}
+.sub-nav i{
+    position: inherit;
+}
+
+/* phần banner */
+.banner{
+    
+    clear: both;
+    background-image: url('image-trangchu/background-logo.jpg');
+    background-size: contain;
+    background-size: 100% auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    
+    
+}
+.about
+
+{     
+    color: #fff;
+    height: 300px;
+    background-color:rgba(0, 0, 0, 0.68);
+     top: 25%;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    left: 60px;
+}
+.about h1{
+    margin-top: 15px;
+}
+.about p{
+    padding: 0 5px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+}
+/* phần slider */
+.slider{
+    clear: both;
+    margin-top: 40px;
+    transition: all 1s;
+    position: relative;
+    
+}
+.col-title{
+    border: 1px solid gray;
+    text-align: center;
+    padding-top:10px ;
+    margin-left: 50px;
+}
+.thanhngang{
+    margin-left: -15px;
+    padding-top: 20px;
+}
+.star{
+    color: gainsboro;
+}
+.col-a{
+    padding-top: 10px;
+    color: #1e73be;
+    
+}
+.col-a i{
+    font-size: 10px;
+    
+}
+.col-a a:hover{
+    color: red;
+    text-decoration: none;
+}
+/* phần myslider */
+.myslider{
+    clear: both;
+    margin-top: 10px;
+   
+}
+.prev{
+    border: 1px solid;
+    margin-top: 80px;
+    margin-left: 40px;
+    border-radius: 50%;
+padding: 5px;
+}
+.text{
+    margin-left: 10px;
+}
+.text a:hover{
+    color: red;
+    text-decoration: none;
+}
+.anh{
+    border: 1px solid gainsboro;
+    padding: 3px;
+    
+    
+}
+
+.next{
+    padding: 5px;
+    border: 1px solid;
+    margin-top: 80px;
+   margin-left: 30px;
+    border-radius: 50%;
+}
+.next:hover,.prev:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.slider2,.slider3,.slider4{
+    clear: both;
+    margin-top: 50px;
+
+
+}
+.myslider2,.myslider3{
+    margin-top: 10px;
+}
+.myslider4{
+    width: 100%;
+    margin: 0 40px;
+    clear: both;
+    
+    
+}
+.prev4{
+    margin-top: 100px;
+}
+.prev4,.next4{
+    padding: 5px;
+    float: left;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.myslider4{
+    margin-top: 20px;
+
+}
+.myslider p,.myslider2 p,.myslider3 p{
+    margin-top: 3px;
+    color: #777;
+    font-size: 12px;
+}
+.myslider4 a:hover{
+    text-decoration: none;
+}
+.myslider4 p:hover{
+    color: red;
+}
+.myslider4 h5{
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+}
+.myslider4 p{
+    color: #000;
+}
+
+.myslider4-1{
+    margin-left: 45px;
+}
+.myslider4-1,.myslider4-2,.myslider4-3,.myslider4-4{
+    margin-right: 2px;
+
+    float: left;
+    width: 21%;
+    border: 1px solid gainsboro;
+    padding: 8px;
+    
+}
+.next4{
+    float: left;
+    margin-top: 85px;
+   margin-left: 35px;
+   }
+
+.next4:hover,.prev4:hover{
+background-color: red;
+color: #fff;
+}
+
+
+/* bắt đầu phần footer */
+.footer
+{
+    margin-top: 400px;
+    clear: both;
+    background-color: #f9f9f9;
+    height: 390px;
+   
+   
+}
+.sub-footer{
+    padding-top: 20px;
+    margin-left: 100px;
+
+}
+.footer .left{
+    float: left;
+    width: 45%;
+}
+.footer :right{
+    float: left;
+}
+.footer a{
+    color: #1e73be;
+    font-weight: 700;
+}
+.footer a:hover{
+    color: red;
+    text-decoration: none;
+}
+.footer-contact{
+    margin-top: 10px;
+    clear: both;
+    text-align: center;
+    color: darkgray;
+}
+
+.nav-contact li{
+    display: inline-block;
+}
+.nav-contact a{
+    color: #334862;
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 15px;
+}
+.footer-contact .banquyen{
+    color: #334862;
+}
+.nav-contact li:hover a{
+    text-decoration: none;
+    color: #334862;
+}
+.banquyen{
+    font-size: 13px;
+}
+.banquyen a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
